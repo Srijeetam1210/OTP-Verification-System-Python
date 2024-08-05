@@ -22,6 +22,7 @@ Easy Integration: Can be integrated into various applications and systems that r
 Improved User Trust: Builds user trust by implementing industry-standard security practices.
 
 **Components :**
+
 OTP Generation: Function to generate a random 6-digit OTP.
 Email Sending: Function to send the OTP to the user's email address.
 User Input: Function to prompt the user to enter the OTP.
@@ -29,6 +30,7 @@ OTP Verification: Function to verify if the entered OTP matches the generated OT
 Main Function: Orchestrates the OTP generation, sending, and verification process.
 
 **Usage :**
+
 Run the Script: Execute the main function to start the OTP verification process.
 Input Email: Enter the email address where the OTP will be sent.
 Receive OTP: Check your email for the OTP.
@@ -36,6 +38,7 @@ Enter OTP: Input the received OTP when prompted.
 Verification: The script will verify if the entered OTP is correct and provide feedback.
 
 **Dependencies :**
+
 random: Used to generate a random OTP.
 smtplib: Used to send emails via SMTP.
 email.message.EmailMessage: Used to create email messages.
